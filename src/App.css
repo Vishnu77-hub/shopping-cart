@@ -1,0 +1,115 @@
+/* src/App.css */
+
+/* General styling for the whole app */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Cart container */
+.cart {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.cart h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.cart-item h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.cart-item p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.cart-item button {
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.cart-item button:hover {
+  background-color: #0056b3;
+}
+
+/* Cart total section */
+.total {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.total p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button.add-item {
+  background-color: #28a745;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button.add-item:hover {
+  background-color: #218838;
+}
+
+.empty-cart {
+  font-size: 18px;
+  color: #888;
+  margin-top: 20px;
+}
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
+  .cart {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-item button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
