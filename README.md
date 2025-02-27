@@ -1,16 +1,16 @@
 # Shopping Cart Application
 
-## 📌 Project Overview
+## Project Overview
 This is a **React-based shopping cart** application that demonstrates the use of **React Hooks**, **useReducer**, and **Bootstrap** for styling. It allows users to add items to the cart, update quantities, and remove items.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### **Prerequisites**
 Ensure you have the following installed:
 - **Node.js** (Latest LTS version recommended)
 - **npm** or **yarn**
 
-### 📂 Folder Structure
+### Folder Structure
 Shopping-Cart/ 
 │-- src/ 
 │ ├── components/ 
@@ -31,13 +31,19 @@ Shopping-Cart/
 
 ---
 
-## 🛠 Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ **Clone the Repository**
+### 1 **Clone the Repository**
 ```bash
 git clone https://github.com/Vishnu77-hub/Form-website.git
 cd Form-website
+```
+## 2️ Install Dependencies
+```
 npm install
+```
+## 3️ Start the Development Server
+```
 npm start
 ```
 This will open the app at http://localhost:3000/.
